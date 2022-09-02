@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../images/image0.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav--flex {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.694);
+  width: 35vw;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 3px solid black;
+  border-top: 3px solid black;
+  border-radius: 20px;
+  box-shadow: 20px 20px 10px rgb(188, 172, 172);
+  color: rgb(255, 255, 255);
+}
+
+.main--pickroom {
+  margin: 5vh;
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+
+.nav--background {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  width: 40vw;
+  height: 80vh;
+  background-color: rgb(238, 238, 238);
+  border-radius: 30px;
+  border-left: 2px solid black;
+  border-top: 3px solid black;
+  padding: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul > li {
+  margin: 3vh;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  font-size: 1.5rem;
+  width: 35vw;
+  height: 8vh;
+  background-color: rgba(0, 0, 0, 0.694);
+  border-left: 3px solid black;
+  border-top: 3px solid black;
+  border-radius: 15px;
+  box-shadow: 20px 20px 10px rgb(188, 172, 172);
+  position: relative;
+}
+
+.left {
+  position: absolute;
+  right: 27vw;
+}
